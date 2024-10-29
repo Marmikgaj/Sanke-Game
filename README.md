@@ -1,42 +1,30 @@
 Snake Game
-This is a classic Snake Game built using Python and the Pygame library. In this game, you control a snake that grows in length as it eats food. Avoid colliding with the walls or the snake's own body to keep the game going!
+A Python implementation of the classic Snake Game using the Pygame library. The game challenges players to control a growing snake as it consumes food, increasing in length and score while avoiding collisions.
 
+Overview
+This project recreates the nostalgic Snake game with responsive controls and modern graphics. The game runs smoothly and offers a continuous score display, making it easy for players to track their progress in real-time.
 
-  
-How to Play
-Use the arrow keys to control the direction of the snake:
-UP arrow key to move up
-DOWN arrow key to move down
-LEFT arrow key to move left
-RIGHT arrow key to move right
-Eat the white food blocks to grow in length and increase your score by 10 points.
-The game ends when the snake hits the wall or its own body.
 Features
-Smooth gameplay with adjustable snake speed.
-Real-time score display.
-Game Over screen showing your final score.
-Requirements
-Python 3.x
-Pygame library
-Install via pip:
-bash
-Copy code
-pip install pygame
-Code Overview
-The game uses basic Pygame functionalities to display graphics and handle events.
-Game Controls: Defined using Pygame's key events.
-Score Display: Shows the current score at the top of the game screen.
-Game Over Screen: Displays the final score before closing.
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/Marmikgaj/snake-game.git
-Navigate into the project directory:
-bash
-Copy code
-cd snake-game
-Run the game:
-bash
-Copy code
-python snake_game.py
+Interactive Gameplay: Use arrow keys to navigate the snake in four directions.
+Score Tracking: Real-time score display, which increases with each food item consumed.
+Dynamic Game Over Screen: Displays the final score before closing the game.
+Simplified UI: Minimalistic design focused on clean gameplay.
+Gameplay Instructions
+Controls:
+Arrow keys control the snake:
+1.Up - Move up
+
+Down - Move down
+Left - Move left
+Right - Move right
+Objective: Consume food blocks to grow the snake and increase the score.
+Game Over Conditions:
+The game ends when the snake collides with the window boundaries or with itself.
+Code Structure
+Event Handling: Captures and interprets arrow key inputs to control the snake’s direction.
+Collision Detection: Triggers game-over state upon collision with walls or the snake’s body.
+Score Display: Displays the player’s score continuously at the top of the game window.
+Game Loop: A smooth, optimized game loop ensures consistent gameplay and frame rate.
+
+Acknowledgments
+This project is inspired by the original Snake game, built to showcase Python and Pygame capabilities while retaining the simplicity of the classic game.
